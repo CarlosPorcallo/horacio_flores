@@ -16,3 +16,5 @@ Para ejecuciones posteriores se puede lanzar el script de ejecución correspondi
 ```bash
 ./run.sh
 ```
+
+Una vez construido/inicializado el entorno y con el servidor Jupyter en ejecución, abrir el notebook deseado.
