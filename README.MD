@@ -4,17 +4,16 @@ Scripts para el manejo de matrices del Ingeniero/Investigador Horacio Flores.
 
 ## Getting Started
 
-La primera vez que se ejecute el proyecto hay que crear y preparar el entorno (environment) de Python, para ello ejecutar el script bash de construcción correspondiente:
+Para ejecutar el proyecto lanzar el script correspondiente dependiendo del Sistema Operativo:
 
-```bash
-chmod +x *.sh # para dar permisos de ejecución en los scripts
-./build.sh
-```
-
-Para ejecuciones posteriores se puede lanzar el script de ejecución correspondiente:
-
+### Linux / MacOS
 ```bash
 ./run.sh
+```
+
+Si se requiere habilitar los privilegios de ejecución del script ejecutar el siguiente comando (Linux/MacOS):
+```bash
+chmod +x *.sh # para dar permisos de ejecución en los scripts
 ```
 
 Una vez construido/inicializado el entorno y con el servidor Jupyter en ejecución, abrir el notebook deseado.
